@@ -22,7 +22,7 @@ header {
 }
 
 .logo span {
-    color: lightgray;
+    color: rgb(226, 226, 226);
 }
 
 nav ul {
@@ -47,7 +47,7 @@ nav a {
 .banner {
     display: flex;
     margin: 0 auto;
-    background-color: lightgray;
+    background-color: rgb(226, 226, 226);
     align-items: center;
 }
 
@@ -70,8 +70,84 @@ nav a {
 }
 
 /*Articles section*/
+.articles {
+    
+    display: flex;
+}
+
+.main-art {
+    width: 60%;
+    border-right: solid 1px rgb(226, 226, 226);
+    padding: 32px 24px 32px 24px;
+}
+
+.main-art img {
+    width: 100%;
+    height: auto;
+}
+
+.side-arts {
+    width: 40%;
+    padding: 32px 0;
+}
+
+.side-art {
+    border: solid 1px rgb(226, 226, 226);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.side-art img {
+    width: 35%;
+    height: auto;
+    margin: 16px;
+}
+
+.side-art p {
+    margin: 8px 0;
+}
+
+.mobile-img {
+    display: none;
+}
+
+.guest {
+    background-color: rgb(226, 226, 226);
+}
 
 /*Learning section*/
+.learning {
+    background-color: rgb(226, 226, 226);
+    padding: 32px 56px 16px;
+}
+
+.learning h2 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    max-width: 30%;
+    margin: 16px 16px;
+    border-radius: 2px;
+}
+
+.card-text {
+    padding: 16px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
 
 /*Thesis exhibit section*/
 
@@ -82,7 +158,7 @@ nav a {
 
 /*Footer*/
 footer {
-    border-top: 1px solid lightgray;
+    border-top: 1px solid rgb(226, 226, 226);
     display: flex;
     justify-content: space-between;
 }
