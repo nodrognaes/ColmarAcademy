@@ -43,6 +43,10 @@ nav a {
     color: black;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 /*Banner section*/
 .banner {
     display: flex;
@@ -88,7 +92,7 @@ nav a {
 
 .side-arts {
     width: 40%;
-    padding: 32px 0;
+    padding: 16px 0;
 }
 
 .side-art {
@@ -127,7 +131,7 @@ nav a {
     margin-bottom: 16px;
 }
 
-.container {
+.learning .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -140,6 +144,12 @@ nav a {
     border-radius: 2px;
 }
 
+@media screen and (max-width: 1088px) {
+    .card {
+        max-width: 45%;
+    }
+}
+
 .card-text {
     padding: 16px;
 }
@@ -150,10 +160,53 @@ nav a {
 }
 
 /*Thesis exhibit section*/
+.thesis h2 {
+    text-align: center;
+    padding: 32px 0;
+}
+
+.thesis .container {
+    display: flex;
+}
+
+.exhib {
+    margin-left: 24px;
+}
+
+.main-exhib {
+    width: 60%;
+}
 
 .main-exhib video {
-    width: 60%;
+    width: 100%;
     height: auto;
+}
+
+.exhib-text {
+    margin: 24px 0px;
+}
+
+.exhib-text p {
+    margin: 8px 0;
+}
+
+.side-exhibs {
+    width: 40%;
+}
+
+.side-exhib {
+    display: flex;
+    align-items: center;
+}
+
+.side-exhib img {
+    width: 35%;
+    height: auto;
+    margin: 16px;
+}
+
+.se1 {
+    background-color: rgb(226, 226, 226);
 }
 
 /*Footer*/
@@ -179,4 +232,8 @@ footer li {
 footer a {
     text-decoration: none;
     color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
