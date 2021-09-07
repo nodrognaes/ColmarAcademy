@@ -1,0 +1,106 @@
+html {
+    margin: 0 auto;
+}
+
+/*Header section*/
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    margin: 0 24px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    height: 32px;
+    align-items: center;
+}
+
+.logo h3 {
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: lightgray;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 16px;
+}
+
+#signin {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Banner section*/
+.banner {
+    display: flex;
+    margin: 0 auto;
+    background-color: lightgray;
+    align-items: center;
+}
+
+.banner img {
+    width: 60%;
+    margin: 32px 24px;
+    border-radius: 2px;
+}
+
+.banner-text {
+    width: 25%;
+}
+
+.banner-text button {
+    width: 100%;
+    padding: 8px 0;
+    background-color: rgb(78, 78, 78);
+    color: white;
+    border-radius: 2px;
+}
+
+/*Articles section*/
+
+/*Learning section*/
+
+/*Thesis exhibit section*/
+
+.main-exhib video {
+    width: 60%;
+    height: auto;
+}
+
+/*Footer*/
+footer {
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin-left: 24px;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer li {
+    list-style: none;
+    margin-right: 16px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
